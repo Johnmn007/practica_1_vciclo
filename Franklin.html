@@ -9,3 +9,18 @@
     <h1>hola soy franklin</h1>
 </body>
 </html>
+
+// franklin.mas na
+// oki doki 
+// q bueno ps
+// deberias irte a tu casa ya.
+//capito
+ <view>  
+      <FlatList
+        data={users} // datos
+        keyExtractor={(item)=> item.id.toString()} // clave unica
+        //renderizamos cada usuario con el componente userCard
+        renderItem={({item})=> <UserCard user={item} />}
+      />
+
+    </view>
